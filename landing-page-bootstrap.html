@@ -2,26 +2,47 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="navbar">
-            <img src="./content/images/Logo.svg" class="mx-auto float-md-left d-block">
-        </div>
+    <header >
+        <nav class="container-fluid">
+            <img src="./content/images/Logo.svg" class="mx-auto ml-md-0 d-block"/>
+        </nav>
     </header>
 
     <main>
-        <section class="text-center my-5 pt-5 ">
-            <div class="container">
-                <h1 class="display-2 font-weight-bold">Monstroid²</h1>
-                <p class="font-weight-bold display-4">Got A Dream? Make It Possible With M2!</p>
-                <button type="button" class="btn btn-primary p-3">Live Demo</button>
+        <section class="d-flex align-items-center justify-content-center" style="height:calc(100vh - 45px)">
+            <div class="text-center ">
+                <h1 class="display-4 font-weight-bold">Monstroid²</h1>
+                <h2 class="text-break">Got A Dream? Make It Possible With M2!</h2>
+                <button type="button" class="btn btn-lg btn-secondary">Live Demo</button>
             </div>
         </section>
+
+        <section class="display-5 font-weight-bold text-capitalize text-center">
+            <h1 class="text-break">Get impressed with Monstroid² super light </h1>
+            <h2>package weight!</h2>
+            <footer>
+                <p class="mt-4 ">Weights  less than 250kb</p>
+                <p>Smooth in performance</p>
+            </footer>
+        </section>
+
+        <section class="mt-5 text-capitalize text-center">
+            <span class="lead">Eye-Catching Demos </span>
+            <h2 class="text-break">Explore +300 Pre-Designed Pages</h2>
+            <h2 class="text-break">And Even More Pages</h2>
+        </section>     
     </main>
     
     <footer>
